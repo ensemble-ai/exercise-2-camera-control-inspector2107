@@ -33,7 +33,3 @@ func _process(_delta):
 				if null != cameras[index]:
 					current_controller = index
 					cameras[current_controller].make_current()
-					
-			
-		
-	
